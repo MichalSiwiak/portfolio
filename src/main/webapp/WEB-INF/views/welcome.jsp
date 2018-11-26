@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 
 <head>
-	<meta charset="utf-8">
+	<%--<meta charset="utf-8">--%>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- PAGE settings -->
 	<link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
@@ -69,7 +70,7 @@
 						<br>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<button type="button" class="btn btn-dark">Demo</button>
+								<a href="/projects/pensioncalculator" class="btn btn-dark" target="_blank" >Demo</a>
 							</div> <small class="text-light">9 mins</small>
 						</div>
 					</div>

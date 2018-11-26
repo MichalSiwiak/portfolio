@@ -12,7 +12,7 @@ import pl.javacoding.pensioncalculator.model.Pension;
 
 import javax.annotation.PostConstruct;
 
-@Controller
+@Controller//("/projects/pensioncalculator")
 public class PensionController {
 
     private Pension pension;
@@ -27,7 +27,7 @@ public class PensionController {
                 .build();
     }
 
-    @RequestMapping(value = "/getdata", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
+    @RequestMapping(value = "/projects/pensioncalculator/getdata", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
     public ResponseEntity<?> getPension() {
         if (inputData != null) {
             pension = new Pension.PensionBuilder(inputData.getFutureValue(), inputData.getYearsOfSavings(), inputData.getReturnOnCapital())
@@ -36,10 +36,10 @@ public class PensionController {
                     .withInflationRate(inputData.getInflationRate())
                     .build();
         }
-        return new ResponseEntity<Pension>(pension, HttpStatus.OK);
+        return new ResponseEntity<>(pension, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/submit", consumes = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.POST)
+    @RequestMapping(value = "/projects/pensioncalculator/submit", consumes = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.POST)
     public ResponseEntity<?> checkFlight(@RequestBody InputData inputData) {
         this.inputData = new InputData();
         this.inputData.setFutureValue(inputData.getFutureValue());

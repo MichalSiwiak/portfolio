@@ -1,18 +1,19 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <%--<meta charset="utf-8">--%>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Spring Examples</title>
     <!-- Bootstrap core CSS -->
-    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="scripts/jquery/jquery.min.js"></script>
-    <script src="scripts/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-    <script src="scripts/angular/functions.js"></script>
+    <script src="/js/functions.js"></script>
     <script src="//cdn.zingchart.com/zingchart.min.js"></script>
     <script src="//cdn.zingchart.com/angular/zingchart-angularjs.js"></script>
 </head>
