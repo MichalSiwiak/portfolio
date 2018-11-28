@@ -79,14 +79,14 @@
 			<div class="col-md-4 p-3">
 				<div class="card box-shadow">
 					<div class="card-body rounded bg-info">
-						<h4 class="">Pension Calculator</h4>
+						<h4 class="">Database</h4>
 						<br>
 						<br>
 						<br>
 						<br>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<button type="button" class="btn btn-dark">Demo</button>
+								<a href="/projects/addressbookdatabase" class="btn btn-dark" target="_blank" >Demo</a>
 							</div> <small class="text-light">9 mins</small>
 						</div>
 					</div>

@@ -16,4 +16,9 @@ public class WelcomeController {
 		return "/pensioncalculator/pensioncalculator-index";
 	}
 
+	@RequestMapping("/projects/addressbookdatabase")
+	public String mapAddressbookDatabaseIndex() {
+		return "/addressbookdatabase/addressbookdatabase-index";
+	}
+
 }
