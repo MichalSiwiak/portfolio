@@ -109,26 +109,26 @@
 <div class="container">
     <div class="row">
         <table class="table table-striped">
-            <thead class="thead-light">
+            <thead>
             <tr>
-                <th class="min">Name</th>
-                <th class="min">Continent</th>
-                <th class="min">Surface area</th>
-                <th class="min">Independence</th>
-                <th class="min">Population</th>
-                <th class="min">Life expectancy</th>
-                <th class="min">Actions</th>
+                <th>Name</th>
+                <th>Continent</th>
+                <th>Surface area</th>
+                <th>Independence</th>
+                <th>Population</th>
+                <th>Life expectancy</th>
+                <th>Actions</th>
             </tr>
             </thead>
             <tbody>
             <tr ng-repeat="country in countries">
-                <td class="min">{{ country.name }}</td>
-                <td class="min">{{ country.continent }}</td>
-                <td class="min">{{ country.surfaceArea }}</td>
-                <td class="min">{{ country.indepYear }}</td>
-                <td class="min">{{ country.population }}</td>
-                <td class="min">{{ country.lifeExpectancy }}</td>
-                <td class="min">
+                <td>{{ country.name }}</td>
+                <td>{{ country.continent }}</td>
+                <td>{{ country.surfaceArea }}</td>
+                <td>{{ country.indepYear }}</td>
+                <td>{{ country.population }}</td>
+                <td>{{ country.lifeExpectancy }}</td>
+                <td>
                                     <span data-placement="top" data-toggle="tooltip" title="Edit">
                                         <button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal"
                                                 ng-click="editCountry( country )"><span
