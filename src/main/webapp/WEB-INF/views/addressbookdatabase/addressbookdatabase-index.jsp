@@ -129,18 +129,16 @@
                 <td>{{ country.population }}</td>
                 <td>{{ country.lifeExpectancy }}</td>
                 <td>
-                                    <span data-placement="top" data-toggle="tooltip" title="Edit">
-                                        <button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal"
-                                                ng-click="editCountry( country )"><span
-                                                class="glyphicon glyphicon-pencil"></span>
-                                        </button>
-                                    </span>
+                    <span data-placement="top" data-toggle="tooltip" title="Edit">
+                        <button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal"
+                                ng-click="editCountry( country )"><span
+                                class="glyphicon glyphicon-pencil"></span></button>
+                    </span>
                     <span data-placement="top" data-toggle="tooltip" title="Delete">
-                                        <button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal"
-                                                ng-click="removeCountry( country )"><span
-                                                class="glyphicon glyphicon-trash"></span>
-                                        </button>
-                                    </span>
+                        <button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal"
+                                ng-click="removeCountry( country )"><span
+                                class="glyphicon glyphicon-trash"></span></button>
+                    </span>
                 </td>
             </tr>
             </tbody>
@@ -187,7 +185,6 @@
         <div class="row">
             <div class="col-md-12 mt-3">
                 <p class="text-center text-white">© Copyright 2017 Pingendo - All rights reserved. </p>
-
             </div>
         </div>
     </div>

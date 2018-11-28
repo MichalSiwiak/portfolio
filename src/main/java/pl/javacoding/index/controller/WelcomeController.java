@@ -21,4 +21,9 @@ public class WelcomeController {
 		return "/addressbookdatabase/addressbookdatabase-index";
 	}
 
+	@RequestMapping("/projects/nearestflight")
+	public String mapNearestFlightIndex() {
+		return "/nearestflight/nearestflight-index";
+	}
+
 }
