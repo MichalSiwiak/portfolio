@@ -27,7 +27,7 @@ public class MailController {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setTo("siwiakmichal@gmail.com");
             message.setSubject(mail.getSubject());
-            message.setText(mail.getContent() + mail.getRecipient());
+            message.setText(mail.getRecipient()+" sends message: "+mail.getContent());
             emailSender.send(message);
             model.addAttribute("success", "Your message has been sent.");
         } catch (Exception e) {
