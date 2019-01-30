@@ -123,7 +123,7 @@
                                        placeholder="Your message"/>
                     </div>
                     <button type="submit"
-                            class="btn mt-4 mb-3 rounded btn-lg btn-primary text-light w-100" onclick="myFunction()">
+                            class="btn mt-4 mb-3 rounded btn-lg btn-primary text-light w-100" <%--onclick="myFunction()"--%>>
                         SEND
                     </button>
                 </form:form>
