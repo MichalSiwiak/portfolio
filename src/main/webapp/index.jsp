@@ -56,10 +56,10 @@
                     <text class="">TECHNOLOGIES</text>
                 </a>
                 </li>
-                <li class="nav-item mx-1 align-items-center d-flex justify-content-center"><a class="nav-link"
-                                                                                              href="${pageContext.request.contextPath}/resume">
-                    <text class="">RESUME</text>
-                </a>
+                <li class="nav-item mx-1 align-items-center d-flex justify-content-center">
+                    <a class="nav-link" target="_blank" href="https://coffeecoding.net/resources/img/cv_msiwiak.pdf">
+                        <text class="">RESUME</text>
+                    </a>
                 </li>
                 <li class="nav-item mx-1 align-items-center d-flex justify-content-center"><a class="nav-link"
                                                                                               href="https://github.com/MichalSiwiak"
