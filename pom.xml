@@ -87,7 +87,7 @@
     </dependencies>
     <!-- Add support for Maven WAR Plugin -->
     <build>
-        <finalName>root</finalName>
+        <finalName>ROOT</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
