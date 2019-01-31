@@ -16,8 +16,8 @@
           type="text/css">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.standalone.min.css">
-    <link rel="stylesheet" href="resources/css/now-ui-kit.css" type="text/css">
-    <link rel="icon" href="resources/img/favicon.png">
+    <link rel="stylesheet" href="/resources/css/now-ui-kit.css" type="text/css">
+    <link rel="icon" href="/resources/img/favicon.png">
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
