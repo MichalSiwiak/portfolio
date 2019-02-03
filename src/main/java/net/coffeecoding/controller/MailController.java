@@ -31,7 +31,7 @@ public class MailController {
             emailSender.send(message);
             model.addAttribute("success", "Your message has been sent.");
         } catch (Exception e) {
-            model.addAttribute("error", e.toString());
+            model.addAttribute("error", "Some error occurred.");
 
         }
         return "contact-form";

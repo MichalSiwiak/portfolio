@@ -133,21 +133,6 @@
     </div>
 </div>
 
-<script>
-    $(window).scroll(function () {
-        sessionStorage.scrollTop = $(this).scrollTop();
-    });
-    $(document).ready(function () {
-        if (sessionStorage.scrollTop != "undefined") {
-            $(window).scrollTop(sessionStorage.scrollTop);
-        }
-    });
-
-    function myFunction() {
-        $("form").submit();
-    }
-</script>
-
 
 <div class="py-5">
     <div class="container my-5">
@@ -161,7 +146,7 @@
 </div>
 <footer class="py-5 bg-dark text-muted">
     <div class="container">
-        <p class="py-5">© Copyright 2018 coffeecoding.net - All rights reserved.<br>Contact: info@coffeecoding.net<br>02-619
+        <p class="py-5">© Copyright 2018 coffeecoding.net - All rights reserved.<br>Contact: info@coffeecoding.net<br>
             Warsaw<br><a href="#header">Back to top</a>
         </p>
     </div>
