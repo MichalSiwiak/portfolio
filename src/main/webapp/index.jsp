@@ -441,7 +441,7 @@
             <h3>Technologies </h3>
         </div>
         <div class="text-center">
-            <img src="resources/img/tech.png" class="img-fluid" alt="..." width="800">
+            <img src="resources/img/technology.png" class="img-fluid" alt="..." width="800">
         </div>
     </div>
 </div>

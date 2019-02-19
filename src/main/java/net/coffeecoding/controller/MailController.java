@@ -25,9 +25,10 @@ public class MailController {
     public String sendMail(@ModelAttribute("mail") Mail mail, Model model) {
         try {
             SimpleMailMessage message = new SimpleMailMessage();
+            message.setFrom("info@coffeecoding.net");
             message.setTo("siwiakmichal@gmail.com");
             message.setSubject(mail.getSubject());
-            message.setText(mail.getRecipient()+" sends message: "+mail.getContent());
+            message.setText(mail.getRecipient() + " sends message: " + mail.getContent());
             emailSender.send(message);
             model.addAttribute("success", "Your message has been sent.");
         } catch (Exception e) {

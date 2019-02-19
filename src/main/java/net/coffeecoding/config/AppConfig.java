@@ -24,16 +24,18 @@ public class AppConfig implements WebMvcConfigurer {
     @Bean
     public JavaMailSender getJavaMailSender() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-        mailSender.setHost("smtp.gmail.com");
-        mailSender.setPort(587);
+        mailSender.setHost("***");
+        mailSender.setPort(000);
 
-        mailSender.setUsername("***@gmail.com");
+        mailSender.setUsername("info@coffeecoding.net");
         mailSender.setPassword("***");
+
+        mailSender.setDefaultEncoding("UTF-8");
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
         props.put("mail.smtp.auth", "true");
-        props.put("mail.smtp.starttls.enable", "true");
+        //props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.debug", "false");
 
         return mailSender;
