@@ -15,9 +15,9 @@
           type="text/css">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.standalone.min.css">
-    <link rel="stylesheet" href="resources/css/now-ui-kit.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
-    <link rel="icon" href="resources/img/favicon.png">
+    <link rel="stylesheet" href="https://coffeecoding.net/resources/css/now-ui-kit.css" type="text/css">
+    <link rel="stylesheet" href="https://coffeecoding.net/resources/css/style.css" type="text/css">
+    <link rel="icon" href="https://coffeecoding.net/resources/img/favicon.png">
     <!-- PAGE scripts -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -75,7 +75,7 @@
                         </a>
                         </li>
                         <li class="nav-item mx-1 align-items-center d-flex justify-content-center"><a class="nav-link"
-                                                                                                      href="${pageContext.request.contextPath}/contact">
+                                                                                                      href="https://coffeecoding.net/contact">
                             <i class="fa fa-envelope-open fa-lg fa-fw d-inline-block lead"></i>&nbsp;&nbsp;<text
                                 class="">
                             CONTACT
@@ -93,7 +93,7 @@
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid m-0 mt-5 pt-5" alt="..." src="./resources/img/404-page.png">
+                <img class="img-fluid m-0 mt-5 pt-5" alt="..." src="https://coffeecoding.net/resources/img/404-page.png">
                 <h1 class="text-center">Page Not Found (404)</h1>
                 <h3 class="display-1 p-0 m-0" >The rabbits have been nibbling the cables again ...</h3>
                 <h3 class="display-1 p-0 m-0">Maybe this will go <a href="https://coffeecoding.net/">HOME</a></h3>
@@ -110,7 +110,7 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>© Copyright 2018 coffeecoding.net - All rights reserved.<br>Contact: info@coffeecoding.net<br>Warsaw PL<br><a
+        <p>© Copyright 2018 coffeecoding.net - All rights reserved.<br>Contact: info@coffeecoding.net<br>Warsaw<br><a
                 href="https://www.coffeecoding.net/">Visit the homepage</a>
         </p>
     </div>

@@ -16,8 +16,8 @@
           type="text/css">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.standalone.min.css">
-    <link rel="stylesheet" href="resources/css/now-ui-kit.css" type="text/css">
-    <link rel="icon" href="resources/img/favicon.png">
+    <link rel="stylesheet" href="/resources/css/now-ui-kit.css" type="text/css">
+    <link rel="icon" href="/resources/img/favicon.png">
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -298,8 +298,7 @@
                                 <div class="tab-pane fade show active text-center" role="tabpanel">
                                     <h5 class="text-dark">Unit Converter</h5>
                                     <p class="text-left text-dark">Unit converter application easy to maintain and
-                                        extend - an
-                                        example of using a factory pattern.</p>
+                                        extend - an example of using a factory pattern.</p>
                                     <br>
                                 </div>
                             </div>
@@ -357,7 +356,8 @@
                             <div class="tab-content mt-2">
                                 <div class="tab-pane fade show active text-center" role="tabpanel">
                                     <h5 class="text-dark">Contact Form</h5>
-                                    <p class="text-left text-dark">Implementation of </p>
+                                    <p class="text-left text-dark">Spring MVC web application - implementation of
+                                        contact form using javax.mail.</p>
                                     <br>
                                 </div>
                             </div>
@@ -379,11 +379,12 @@
             <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <a href="/contact-form">
+                        <a href="/creditworthiness/demo">
                             <div class="tab-content mt-2">
                                 <div class="tab-pane fade show active text-center" role="tabpanel">
-                                    <h5 class="text-dark">Creditworthiness test</h5>
-                                    <p class="text-left text-dark">Implementation of </p>
+                                    <h5 class="text-dark">Creditworthiness Test</h5>
+                                    <p class="text-left text-dark">Spring MVC web application - implementation of
+                                        creditworthiness test using the reverse PMT function.</p>
                                     <br>
                                 </div>
                             </div>
@@ -391,12 +392,12 @@
                     </div>
                     <ul class="nav nav-tabs px-1 py-3 flex-column flex-lg-row justify-content-md-center text-center bg-primary">
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact-form">
+                            <a class="nav-link" href="/creditworthiness">
                                 <i class="fa fa-file-text-o mr-1" aria-hidden="true"></i>Description</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank"
-                               href="https://github.com/MichalSiwiak/spring-contact-form">
+                               href="https://github.com/MichalSiwiak/creditworthiness-test">
                                 <i class="fa fa-github mr-1" aria-hidden="true"></i>Source Code</a>
                         </li>
                     </ul>
@@ -406,11 +407,13 @@
             <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <a href="/contact-form/demo">
+                        <a href="/text-analyzer/demo">
                             <div class="tab-content mt-2">
                                 <div class="tab-pane fade show active text-center" role="tabpanel">
-                                    <h5 class="text-dark">Count word occurrences</h5>
-                                    <p class="text-left text-dark">Implementation of </p>
+                                    <h5 class="text-dark">Text Analyzer</h5>
+                                    <p class="text-left text-dark">Spring MVC web application counts occurrences of
+                                        words in a text
+                                        file and prints statistics.</p>
                                     <br>
                                 </div>
                             </div>
@@ -418,12 +421,12 @@
                     </div>
                     <ul class="nav nav-tabs px-1 py-3 flex-column flex-lg-row justify-content-md-center text-center bg-primary">
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact-form">
+                            <a class="nav-link" href="/text-analyzer">
                                 <i class="fa fa-file-text-o mr-1" aria-hidden="true"></i>Description</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank"
-                               href="https://github.com/MichalSiwiak/spring-contact-form">
+                               href="https://github.com/MichalSiwiak/text-analyzer-spring-mvc">
                                 <i class="fa fa-github mr-1" aria-hidden="true"></i>Source Code</a>
                         </li>
                     </ul>
@@ -447,7 +450,7 @@
 </div>
 <footer class="py-5 bg-dark text-muted">
     <div class="container">
-        <p class="py-5">© Copyright 2018 coffeecoding.net - All rights reserved.<br>Contact: info@coffeecoding.net<br>02-619
+        <p class="py-5">© Copyright 2018 coffeecoding.net - All rights reserved.<br>Contact: info@coffeecoding.net<br>
             Warsaw<br><a href="#header">Back to top</a>
         </p>
     </div>
