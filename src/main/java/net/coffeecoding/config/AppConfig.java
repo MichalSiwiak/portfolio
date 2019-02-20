@@ -24,12 +24,11 @@ public class AppConfig implements WebMvcConfigurer {
     @Bean
     public JavaMailSender getJavaMailSender() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-        mailSender.setHost("***");
+        mailSender.setHost("**");
         mailSender.setPort(000);
 
-        mailSender.setUsername("info@coffeecoding.net");
-        mailSender.setPassword("***");
-
+        mailSender.setUsername("**");
+        mailSender.setPassword("**");
         mailSender.setDefaultEncoding("UTF-8");
 
         Properties props = mailSender.getJavaMailProperties();
